@@ -108,4 +108,6 @@ body {
   top: 466px;
 }
 
-label 
+label {
+  background: #4A5E69;
+}
