@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+@font-face {
+  font-family: "Kerox";
+  src: url(../fonts/kerox/Kerox-NonCommercial.otf) format(opentype);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(0deg, rgba(1, 0, 2, 0.66), rgba(1, 0, 2, 0.66)), #001D84;
+}
+
+#inicio_CITY {
+  position: relative;
+  width: 100%;
+  height: 83px;
+  background-image: linear-gradient(89.94deg,rgba(0, 229, 255, 0.21) 35.22%, rgba(18, 0, 255, 0.21) 70.85%);
+}
+
+#inicio_CITY > #home {
+  position: relative;
+  text-align: center;
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%, -50%);
+}
+
+#inicio_CITY > #home > h1 {
+  color: white;
+  font-family: 'Koulen';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  letter-spacing: 8px;
+}
+
+#inicio_CITY > #img_user > img {
+  position:absolute;
+  width: 37px;
+  height: 40px;
+  left: 90%;
+  top: 0px;
+  mix-blend-mode: luminosity;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+}
+
+main > #fundo-city {
+  width: 100vw;
+  height: 205px;
+  background-image: url(../images/4884841.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#fundo-city > .logo > .evslle > img{ 
+  position: relative;
+  width: 162px;
+  height: 143px;
+  left: 35px;
+  top: 79.9px;
+}
+
+#fundo-city > .logo > .evslle > .principio-un {
+  position: absolute;
+  color: white;
+  width: 103px;
+  height: 18px;
+  left: 178px;
+  top: 98px;
+  background-image: linear-gradient(89.94deg, #ff2cdf, #0014ff);
+  font-family: "kerox";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: -0.005em;
+}
+
+#circle-two {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left: 165px;
+  top: 103px;
+  background-color: #61c1fd;
+}
+
+#circle-un {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  left: 112.4px;
+  top: 172.8px;
+  background: #61C1FD;
+}
+
+#fundo-city > .logo > .evslle > .principio-two {
+  position: absolute;
+  width: 209px;
+  height: 18px;
+  left: 121px;
+  top: 168px;
+  background-image: linear-gradient(89.94deg, #ff2cdf, #0014ff);
+  font-family: 'Kerox';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0.32em;
+  color: #FFFFFF;
+}
