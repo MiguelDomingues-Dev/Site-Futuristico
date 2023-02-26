@@ -79,18 +79,24 @@ main > #fundo-city {
 
 #fundo-city > .logo > .evslle > .principio-un {
   position: absolute;
-  color: white;
   width: 103px;
   height: 18px;
   left: 174px;
   top: 128px;
-  background-image: linear-gradient(89.94deg, #ff2cdf, #0014ff);
   font-family: "kerox";
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   text-align: center;
   letter-spacing: -0.005em;
+}
+
+.principio-un {
+  color: transparent;
+  background-image: linear-gradient(89.94deg, #ff2cdf, #0014ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 #circle-two {
@@ -118,14 +124,20 @@ main > #fundo-city {
   height: 18px;
   left: 121px;
   top: 168px;
-  background-image: linear-gradient(89.94deg, #ff2cdf, #0014ff);
   font-family: 'Kerox';
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   text-align: center;
   letter-spacing: 0.32em;
-  color: #FFFFFF;
+}
+
+.principio-two {
+  color: transparent;
+  background-image: linear-gradient(89.94deg, #ff2cdf, #0014ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: text;
 }
 
 .pag_un {
@@ -233,6 +245,10 @@ main > #fundo-city {
   text-align: center;
   letter-spacing: 0.2em;  
   line-height: 106.66%;
+}
+
+#colun-grid > a > img {
+  
 }
 
 footer {
