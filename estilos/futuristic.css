@@ -118,6 +118,16 @@ main > #fundo-city {
   background: #61C1FD;
 }
 
+#circle-three {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left: 217px;
+  top: 284.9px;
+  border-radius: 10px;
+  background-color: #61C1FD; 
+}
+
 #fundo-city > .logo > .evslle > .principio-two {
   position: absolute;
   width: 209px;
@@ -247,8 +257,88 @@ main > #fundo-city {
   line-height: 106.66%;
 }
 
-#colun-grid > a > img {
-  
+.box-hover > a > img {
+  filter: blur(3px);
+  transition: 0.5s;
+}
+
+.box-hover:hover img{
+  filter: none;
+}
+
+#traços-blue {
+  position: relative;
+}
+
+#traços-blue:hover .blue, .tr{
+  border:2px solid #00E5FF;
+  transition: 0.2s;
+}
+
+#un {
+  position: absolute;
+  width: 95.56px;
+  height: 0px;
+  left: 154.91px;
+  top: -365.27px;
+  border: 2px solid rgb(128, 128, 128);
+  border-radius: 11px;
+  transform: rotate(-68.5deg);
+}
+
+#two2 {
+  position: absolute;
+  width: 95.56px;
+  height: 0px;
+  left: 162.9px;
+  top: -365.27px;
+  border: 2px solid rgb(128, 128, 128);
+  border-radius: 11px;
+  transform: rotate(-77deg);
+}
+
+#three {
+  position: absolute;
+  width: 85px;
+  height: 0px;
+  left: 175px;
+  top: -365.27px;
+  border: 2px solid rgb(128, 128, 128);
+  border-radius: 11px;
+  transform: rotate(-89.1deg);
+}
+
+#four {
+  position: absolute;
+  width: 185px;
+  height: 0px;
+  left: 106px;
+  top: -228px;
+  border: 2px solid rgb(128, 128, 128);
+  border-radius: 11px;
+  transform: rotate(-89deg);
+}
+
+#five {
+  position: absolute;
+  width: 45px;
+  height: 0px;
+  left: 166.9px;
+  top: -115.27px;
+  border: 2px solid rgb(128, 128, 128);
+  border-radius: 11px;
+  transform: rotate(-70deg);
+}
+
+#six {
+  position: absolute;
+  width: 50px;
+  height: 0px;
+  left: 180px;
+  top: -118px;
+  border: 2px solid rgb(128, 128, 128);
+  border-radius: 11px;
+  transform:  rotate(-108deg);
 }
 
 footer {
