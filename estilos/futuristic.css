@@ -148,7 +148,6 @@ main > #fundo-city {
   font-size: 20px;
   letter-spacing: 0.1em;
   text-align: center;
-
   left: 0px;
   top: 314px;
   width: 184px;
@@ -159,86 +158,54 @@ main > #fundo-city {
   display: flex;
 }
 
-#pag-tranformers {
-  position: relative;
-  margin-left: 18px;
-  top: 40px;
-  filter: drop-shadow(0px 4px 4px rgba(255, 255, 255, 0.25)) drop-shadow(6px 8px 4px rgba(255, 255, 255, 0.08));
-}
-
-#pag-tranformers > h1  {
-  position: relative;
-  top: -10px;
-  width: 184px;
-  height: 24px;
-  left: -10px;
-  font-size: 20px;
-  font-weight: 400;
-  font-style: normal;
-  text-align: center;
-  letter-spacing: 0.2em;  
-  line-height: 106.66%;
-}
-
-#programador {
-  position: relative;
-  margin-left: 10px;
-  top: 40px;
-  filter: drop-shadow(0px 4px 4px rgba(255, 255, 255, 0.25)) drop-shadow(6px 8px 4px rgba(255, 255, 255, 0.08));
-}
-
-#programador > h1 { 
-  position: relative;
-  top: -10px;
-  width: 184px;
-  height: 24px;
-  left: -10px;
-  font-size: 20px;
-  font-weight: 400;
-  font-style: normal;
-  text-align: center;
-  letter-spacing: 0.2em;  
-  line-height: 106.66%;
-}
-
 #colun-grid-sect {
   display: flex;
 }
 
-#HarryPotter {
+#pag-tranformers > h1  {
   position: relative;
-  margin-left: 20px;
-  top: 78px;
-  filter: drop-shadow(0px 4px 4px rgba(255, 255, 255, 0.25)) drop-shadow(6px 8px 4px rgba(255, 255, 255, 0.08));
+  top: -575px;
+  left:   15px;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  letter-spacing: 0.2em;  
+  line-height: 106.66%;
+}
+
+#programador > h1 { 
+  position: relative;
+  top: -575px;
+  left:   15px;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  letter-spacing: 0.2em;  
+  line-height: 106.66%;
 }
 
 #HarryPotter > h1 {
   position: relative;
-  top: -10px;
+  top: -355px;
   width: 184px;
   height: 24px;
-  left: -10px;
+  left: 10px;
   font-size: 20px;
   font-weight: 400;
   font-style: normal;
   text-align: center;
   letter-spacing: 0.2em;  
   line-height: 106.66%;
-}
-
-#tecnologia {
-  position: relative;
-  margin-left: 10px;
-  top: 78px;
-  filter: drop-shadow(0px 4px 4px rgba(255, 255, 255, 0.25)) drop-shadow(6px 8px 4px rgba(255, 255, 255, 0.08));
 }
 
 #tecnologia > h1 {
   position: relative;
-  top: -10px;
+  top: -378px;
   width: 184px;
   height: 24px;
-  left: -10px;
+  left: 200px;
   font-size: 20px;
   font-weight: 400;
   font-style: normal;
@@ -247,30 +214,448 @@ main > #fundo-city {
   line-height: 106.66%;
 }
 
-/* .box-hover > .card > a > img {
+.transparent {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0);
+  width: 165px;
+  height: 165px;
+  top: 688px;
+  left: 20px;
+}
+
+.transparent-un {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.122);
+  width: 165px;
+  height: 165px;
+  top: 438px;
+  left: 20px;
+}
+
+.transparent-two {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.122);
+  width: 165px;
+  height: 165px;
+  left: 212px;
+  top: 441px;
+}
+
+.transparent-three {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.122);
+  width: 165px;
+  height: 165px;
+  left: 212px;
+  top: 680px;
+}
+
+#card-un {
   filter: blur(3px);
-  transition: 0.5s;
-}
-
-.box-hover > .card:hover img{
-  filter: none;
-} */
-
-.box-hover{
   position: relative;
+  background-image: url(../images/Kingfrends_create_a_video_thumbnail_containing_a_flashy_robot_u_8961cc88-263a-447e-8e76-9caed908799f.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 120px;
+  left: 20px;
+  width: 165px;
+  height: 165px;
+  overflow: hidden;
+  filter: drop-shadow(0px 4px 4px rgba(255, 255, 255, 0.25)) drop-shadow(6px 8px 4px rgba(255, 255, 255, 0.08));
 }
 
-.box-hover .link-cardun span:first-of-type {
+#card-un span:nth-last-of-type(1) {
+  position: absolute;
+  top:  0;
+  left: 0;
+  background: linear-gradient(to right, black, #03d5ff);
+  width: 100%;
+  height: 3px;
+  animation: animador1 2s linear infinite;
+}
+
+@keyframes animador1  {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+}
+}
+
+#card-un span:nth-last-of-type(2) {
   position: absolute;
   top: 0;
   left: 0;
-  background-image: linear-gradient(to right, 00E5FF, rgba(0, 0, 0, 0.554)
-  );
-  width: 100%;
-  height: 3px;
+  background: linear-gradient(to bottom, #03d5ff, black);
+  width: 3px;
+  height: 100%;
+  animation: animador2 2s linear infinite;
+  animation-delay: 1s;
 }
 
-.card span
+@keyframes animador2 {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(-100%);
+}
+}
+
+#card-un span:nth-last-of-type(3) {
+  position: absolute;
+  right:  0;
+  bottom: 0;
+  background: linear-gradient(to left, black, #03d5ff);
+  width: 100%;
+  height: 3px;
+  animation: animador3 2s linear infinite;
+}
+
+@keyframes animador3 {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+}
+}
+
+#card-un span:nth-last-of-type(4) {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: linear-gradient(to top, #03d5ff, black);
+  width: 3px;
+  height: 100%;
+  animation: animador4 2s linear infinite;
+  animation-delay: 1s
+}
+
+@keyframes animador4 {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(100%);
+}
+}
+
+#card-two {
+  filter: blur(3px);
+  position: relative;
+  background-image: url(../images/Jackshan65_developer_cute_computer_e61a2e35-b358-4075-88a7-5d1d0204c13b.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: -43px;
+  left: 210px;
+  width: 165px;
+  height: 165px;
+  overflow: hidden;
+  filter: drop-shadow(0px 4px 4px rgba(255, 255, 255, 0.25)) drop-shadow(6px 8px 4px rgba(255, 255, 255, 0.08));
+}
+
+#card-two span:nth-last-of-type(1) {
+  position: absolute;
+  top:  0;
+  left: 0;
+  background: linear-gradient(to right, black, #03d5ff);
+  width: 100%;
+  height: 3px;
+  animation: animador1 2s linear infinite;
+}
+
+@keyframes animador1  {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+}
+}
+
+#card-two span:nth-last-of-type(2) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(to bottom, #03d5ff, black);
+  width: 3px;
+  height: 100%;
+  animation: animador2 2s linear infinite;
+  animation-delay: 1s;
+}
+
+@keyframes animador2 {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(-100%);
+}
+}
+
+#card-two span:nth-last-of-type(3) {
+  position: absolute;
+  right:  0;
+  bottom: 0;
+  background: linear-gradient(to left, black, #03d5ff);
+  width: 100%;
+  height: 3px;
+  animation: animador3 2s linear infinite;
+}
+
+@keyframes animador3 {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+}
+}
+
+#card-two span:nth-last-of-type(4) {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: linear-gradient(to top, #03d5ff, black);
+  width: 3px;
+  height: 100%;
+  animation: animador4 2s linear infinite;
+  animation-delay: 1s
+}
+
+@keyframes animador4 {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(100%);
+}
+}
+
+#card-three {
+  filter: blur(3px);
+  position: relative;
+  background-image: url(../images/9cfdecc0-e315-44aa-b3f4-454b2d887b5d.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 30px;
+  left: 20px;
+  width: 165px;
+  height: 165px;
+  overflow: hidden;
+  filter: drop-shadow(0px 4px 4px rgba(255, 255, 255, 0.25)) drop-shadow(6px 8px 4px rgba(255, 255, 255, 0.08));
+}
+
+#card-three span:nth-last-of-type(1) {
+  position: absolute;
+  top:  0;
+  left: 0;
+  background: linear-gradient(to right, black, #03d5ff);
+  width: 100%;
+  height: 3px;
+  animation: animador1 2s linear infinite;
+}
+
+@keyframes animador1  {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+}
+}
+
+#card-three span:nth-last-of-type(2) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(to bottom, #03d5ff, black);
+  width: 3px;
+  height: 100%;
+  animation: animador2 2s linear infinite;
+  animation-delay: 1s;
+}
+
+@keyframes animador2 {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(100%);
+}
+}
+
+#card-three span:nth-last-of-type(3) {
+  position: absolute;
+  right:  0;
+  bottom: 0;
+  background: linear-gradient(to left, black, #03d5ff);
+  width: 100%;
+  height: 3px;
+  animation: animador3 2s linear infinite;
+}
+
+@keyframes animador3 {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+}
+}
+
+#card-three span:nth-last-of-type(4) {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: linear-gradient(to top, #03d5ff, black);
+  width: 3px;
+  height: 100%;
+  animation: animador4 2s linear infinite;
+  animation-delay: 1s
+}
+
+@keyframes animador4 {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(100%);
+}
+}
+
+#card-four {
+  filter: blur(3px);
+  position: relative;
+  background-image: url(../images/Kingfrends_create_a_miniature_with_people_messing_with_their_co_7efad209-4d09-43ff-ab1a-03fd7077c3b7.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: -135px;
+  left: 210px;
+  width: 165px;
+  height: 165px;
+  overflow: hidden;
+  filter: drop-shadow(0px 4px 4px rgba(255, 255, 255, 0.25)) drop-shadow(6px 8px 4px rgba(255, 255, 255, 0.08));
+}
+
+#card-four span:nth-last-of-type(1) {
+  position: absolute;
+  top:  0;
+  left: 0;
+  background: linear-gradient(to right, black, #03d5ff);
+  width: 100%;
+  height: 3px;
+  animation: animador1 2s linear infinite;
+}
+
+@keyframes animador1  {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+}
+}
+
+#card-four span:nth-last-of-type(2) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(to bottom, #03d5ff, black);
+  width: 3px;
+  height: 100%;
+  animation: animador2 2s linear infinite;
+  animation-delay: 1s;
+}
+
+@keyframes animador2 {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(-100%);
+}
+}
+
+#card-four span:nth-last-of-type(3) {
+  position: absolute;
+  right:  0;
+  bottom: 0;
+  background: linear-gradient(to left, black, #03d5ff);
+  width: 100%;
+  height: 3px;
+  animation: animador3 2s linear infinite;
+}
+
+@keyframes animador3 {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+}
+}
+
+#card-four span:nth-last-of-type(4) {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: linear-gradient(to top, #03d5ff, black);
+  width: 3px;
+  height: 100%;
+  animation: animador4 2s linear infinite;
+  animation-delay: 1s
+}
+
+@keyframes animador4 {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(100%);
+}
+}
+
+#card-four span:nth-last-of-type(3) {
+  position: absolute;
+  right:  0;
+  bottom: 0;
+  background: linear-gradient(to left, black, #03d5ff);
+  width: 100%;
+  height: 3px;
+  animation: animador3 2s linear infinite;
+}
+
+@keyframes animador3 {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+}
+}
+
+#card-four span:nth-last-of-type(4) {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: linear-gradient(to top, #03d5ff, black);
+  width: 3px;
+  height: 100%;
+  animation: animador4 2s linear infinite;
+  animation-delay: 1s
+}
+
+@keyframes animador4 {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(100%);
+}
+}
 
 footer {
   width: 100vw;
@@ -284,9 +669,10 @@ footer > h1 {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  font-size: 13px;
+  font-size: 20px;
   font-style: italic;
   font-weight: 400;
   line-height: 106.66%;
  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+ top: 100px;
 }
