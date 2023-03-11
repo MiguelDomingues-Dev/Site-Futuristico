@@ -320,3 +320,32 @@ Extra large screens, TV – 1201px, and more. */
    top: -20px;
   }
 }
+
+@media screen and (min-width: 992px) and (max-width: 1440px) {
+  #inicio_CITY {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  #inicio_CITY {
+    height: 83px;
+    background-image: linear-gradient(89.94deg,rgba(0, 229, 255, 0.21) 35.22%, rgba(18, 0, 255, 0.21) 70.85%);
+  }
+  
+  #inicio_CITY > #home {
+    position: relative;
+    text-align: center;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+  }
+
+  main > #fundo-city {
+    width: 100vw;
+    height: 235px;
+    background-image: url(../images/layouttablet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
