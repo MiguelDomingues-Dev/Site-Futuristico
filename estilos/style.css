@@ -12,6 +12,8 @@ body {
   width: 100vw;
   height: 844px;
   background-image: url(../images/background-mobile-login.png);
+  background-repeat: no-repeat;
+  background-size:  cover;
 }
 
 main {
@@ -124,7 +126,7 @@ form > .campo:nth-last-of-type(1) {
   border-radius: 8px;
   margin: 5px 0px;
   border-radius: 8px;
-  top: -10px;
+  top: 50px;
 }
 
 form > .campo:nth-last-of-type(2) {
@@ -135,7 +137,7 @@ form > .campo:nth-last-of-type(2) {
   border-radius: 8px;
   margin: 5px 0px;
   border-radius: 8px;
-  top: 90px;
+  top: 30px;
 }
 
 div.campo > label {
@@ -150,6 +152,21 @@ div.campo > i {
 }
 
 div.campo > input {
+  background-color: rgba(255, 255, 255, 0.15);
+  font-size: 1em;
+  height: 100%;
+  width: calc(100% - 42px);
+  transform: translateY(-46px);
+  border: 0px;
+  border-radius: 8px;
+  position: relative;
+  left: 42.8px;
+  color: white;
+  left: 43px;
+  top: -3px;
+}
+
+div.campo > input:nth-last-of-type(2) {
   background-color: rgba(255, 255, 255, 0.15);
   font-size: 1em;
   height: 100%;
