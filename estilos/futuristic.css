@@ -70,6 +70,34 @@ body, html {
   left: 90%;
   top: 0px;
   mix-blend-mode: luminosity;
+  cursor: pointer;
+}
+
+/* Menu User */
+#conteudo {
+  -webkit-transition: 2s;
+  transition: 2s  ease-out;
+}
+
+#conteudo > img {
+  position: relative;
+  left: 85%;
+  top: -10px;
+  width: 60px;
+  border-radius: 10px;
+}
+
+#conteudo > #meu-email > a > img {
+  position: absolute;
+  top: 125px;
+  left: 88%;
+}
+
+#conteudo > #meu-email > a > .img-un {
+  position: absolute;
+  top: 265px;
+  left: 86%;
+  width: 55px;
 }
 
 main {
