@@ -84,20 +84,22 @@ body, html {
   left: 85%;
   top: -10px;
   width: 60px;
-  border-radius: 10px;
+  border-radius: 80px;
 }
 
-#conteudo > #meu-email > a > img {
+#conteudo > #meu-email > #box-email > img {
   position: absolute;
   top: 125px;
   left: 88%;
+  cursor: pointer;
 }
 
-#conteudo > #meu-email > a > .img-un {
+#conteudo > #meu-email > #box-computer > .img-un {
   position: absolute;
   top: 265px;
   left: 86%;
   width: 55px;
+  cursor: pointer;
 }
 
 main {
