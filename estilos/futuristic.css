@@ -65,7 +65,7 @@ body, html {
 
 #inicio_CITY > #img_user > img {
   position:absolute;
-  width: 37px;
+  width: 40px;
   height: 40px;
   left: 90%;
   top: 0px;
@@ -94,12 +94,35 @@ body, html {
   cursor: pointer;
 }
 
-#conteudo > #meu-email > #box-computer > .img-un {
+#conteudo > #meu-email > #box-computer > a > .img-un {
   position: absolute;
   top: 265px;
   left: 86%;
   width: 55px;
   cursor: pointer;
+}
+
+#conteudo > #boxcomputer > .img-two {
+  position: absolute;
+  top: 185px;
+  left: 84%;
+  width: 75px;
+  cursor: pointer;
+}
+
+#informsuser {
+  position: relative;
+  width: 169px;
+  height: 205px;
+  background: rgba(44, 47, 72, 0.91);
+  box-shadow: inset 1px 0px 0px rgba(255, 255, 255, 0.1);
+  border-radius: 13px;
+  background-image: url(../image-user-fututo/painel-user.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: -480px;
+  left: 163px;
+  display: none;
 }
 
 main {
@@ -165,11 +188,11 @@ main > #fundo-city {
 }
 
 #fundo-city > .logo > .evslle > .principio-two {
-  position: absolute;
+  position: relative;
   width: 209px;
   height: 18px;
-  left: 121px;
-  top: 168px;
+  left: 110px;
+  top: -64px;
   font-family: 'Kerox';
   font-style: normal;
   font-weight: 400;

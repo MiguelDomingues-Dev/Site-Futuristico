@@ -5,3 +5,11 @@ function clickUser() {
     conteudo.style.display = 'block'
   }
 }
+
+function mouse() {
+  informsuser.style.display = 'block'
+}
+
+function mouseOut() {
+  informsuser.style.display = 'none'
+}
