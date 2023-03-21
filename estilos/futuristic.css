@@ -110,19 +110,144 @@ body, html {
   cursor: pointer;
 }
 
+
 #informsuser {
   position: relative;
+  display: none;
   width: 169px;
   height: 205px;
+  top: -480px;
+  left: 159px;
   background: rgba(44, 47, 72, 0.91);
   box-shadow: inset 1px 0px 0px rgba(255, 255, 255, 0.1);
   border-radius: 13px;
-  background-image: url(../image-user-fututo/painel-user.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  top: -480px;
-  left: 163px;
+  overflow: hidden;
+}
+
+#cubobox {
   display: none;
+}
+
+#box-painel > img:nth-last-of-type(5) {
+  position: absolute;
+  width: 58px;
+  height: 90px;
+  left: 215px;
+  top: 145px;
+}
+
+#box-painel > img:nth-last-of-type(4) {
+  position: absolute;
+  width: 115px;
+  height: 110px;
+  left: 188px;
+  top: 140px;
+}
+
+#box-painel > img:nth-last-of-type(3) {
+  position: absolute;
+  width: 62px;
+  height: 65px;
+  left: 214px;
+  top: 158px;
+}
+
+#box-painel > img:nth-last-of-type(2) {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 180px;
+  top: 285px;
+}
+
+#box-painel > img:nth-last-of-type(1) {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 180px;
+  top: 315px;
+}
+
+#box-painel > #titulo-principal {
+  position: absolute;
+  width: 76px;
+  height: 20px;
+  left: 210px;
+  top: 235px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+#box-painel > #username {
+  position: absolute;
+  width: 115px;
+  height: 19px;
+  left: 190px;
+  top: 255px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.25);
+}
+
+#box-painel > #principal-email {
+  position: absolute;
+  width: 137px;
+  height: 10px;
+  left: 210px;
+  top: 290px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 12px;
+  color: #FFFFFF;
+}
+
+#box-painel > #caracteres-password {
+  position: absolute;
+  width: 79px;
+  height: 6px;
+  left: 210px;
+  top: 325px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  color: #FFFFFF;
+}
+
+#box-painel > #troca-password {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  position: absolute;
+  width: 55px;
+  height: 15px;
+  left: 258px;
+  top: 322px;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.3);
+  background-blend-mode: overlay;
+  border-radius: 5px;
+  border: none;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8px;
+  padding: 4px;
+  line-height: 10px;
+  cursor: pointer;
 }
 
 main {
@@ -130,7 +255,7 @@ main {
   height: 100vh;
 }
 
-main > #fundo-city {
+main > #fundocity {
   width: 100vw;
   height: 235px;
   background-image: url(../images/4884841.jpg);
@@ -138,7 +263,14 @@ main > #fundo-city {
   background-size: cover;
 }
 
-#fundo-city > .logo > .evslle > img{ 
+#boxpreenche {
+  display: block;
+  height: 240px;
+  width: 200px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#fundocity > .logo > .evslle > img{ 
   position: relative;
   width: 162px;
   height: 143px;
@@ -146,7 +278,7 @@ main > #fundo-city {
   top: 110px;
 }
 
-#fundo-city > .logo > .evslle > .principio-un {
+#fundocity > .logo > .evslle > .principio-un {
   position: absolute;
   width: 103px;
   height: 18px;
@@ -187,12 +319,12 @@ main > #fundo-city {
   background: #61C1FD;
 }
 
-#fundo-city > .logo > .evslle > .principio-two {
+#fundocity > .logo > .evslle > .principio-two {
   position: relative;
   width: 209px;
   height: 18px;
   left: 110px;
-  top: -64px;
+  top: -63px;
   font-family: 'Kerox';
   font-style: normal;
   font-weight: 400;
