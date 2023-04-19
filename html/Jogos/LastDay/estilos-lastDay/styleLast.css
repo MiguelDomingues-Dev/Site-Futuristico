@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100vw;
+    height: 100vh;
+}
+
+#painel-control {
+    position: relative;
+    height: 100vh;
+    background-image: url(../image/Download-LastDay.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#painel-control > #button-return > a > img {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 15px;
+    left: 10px;
+}
+
+#painel-control > #painel-estilo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+#painel-control > #painel-estilo > span > a > img:nth-last-of-type(1):hover {
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: 2s;
+}
