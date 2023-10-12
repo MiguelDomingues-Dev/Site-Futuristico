@@ -78,12 +78,14 @@ body, html {
   position: relative;
   -webkit-transition: 2s;
   transition: 2s  ease-out;
+  top: -1070px;
+  left: 20px;
 }
 
 #barra-Menu {
-  position: relative;
+  position: absolute;
   left: 85%;
-  top: -10px;
+  top: 60px;
   width: 60px;
   border-radius: 80px;
 }
@@ -97,45 +99,61 @@ body, html {
   height: 844px;
 }
 
-#conteudo > #meu-email > #box-email > img {
-  position: absolute;
+#box-email {
+  position: relative;
   top: 125px;
   left: 88%;
+}
+
+#conteudo > #meu-email > #box-email > img {
+  position: absolute;
   cursor: pointer;
+  width: 45px;
+}
+
+#meu-email {
+  position: relative;
+  top: 50px;
+}
+
+#box-computer {
+  position: relative;
+  top: 275px;
+  left: 86%;
 }
 
 #conteudo > #meu-email > #box-computer > a > .img-un {
-  position: absolute;
-  top: 265px;
-  left: 86%;
   width: 55px;
   cursor: pointer;
 }
 
 #conteudo > #boxcomputer > .img-two {
   position: absolute;
-  top: 185px;
+  top: 238.5px;
   left: 84%;
   width: 75px;
   cursor: pointer;
 }
 
-
 #informsuser {
-  position: relative;
+  position: absolute;
   display: none;
   width: 169px;
   height: 205px;
   top: -480px;
-  left: 159px;
+  left: 209px;
   background: rgba(44, 47, 72, 0.91);
   box-shadow: inset 1px 0px 0px rgba(255, 255, 255, 0.1);
   border-radius: 13px;
   overflow: hidden;
 }
 
-#cubobox {
-  display: none;
+#fundo-infouser {
+  position: absolute;
+  width: 169px;
+  height: 205px;
+  left: 10px;
+  background-color: #010A2F;
 }
 
 #box-painel > img:nth-last-of-type(5) {
