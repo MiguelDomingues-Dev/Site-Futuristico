@@ -74,17 +74,27 @@ body, html {
 }
 
 /* Menu User */
-#conteudo {
+#conteudo { 
+  position: relative;
   -webkit-transition: 2s;
   transition: 2s  ease-out;
 }
 
-#conteudo > img {
+#barra-Menu {
   position: relative;
   left: 85%;
   top: -10px;
   width: 60px;
   border-radius: 80px;
+}
+
+.Menu {
+  position: absolute;
+  background-image: url(../image-user-fututo/Bar.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 88px;
+  height: 844px;
 }
 
 #conteudo > #meu-email > #box-email > img {
@@ -250,24 +260,14 @@ body, html {
   cursor: pointer;
 }
 
-main {
-  width: 90%;
-  height: 100vh;
-}
-
-main > #fundocity {
+#fundocity {
+  position: relative;
+  top: 40px;
   width: 100vw;
   height: 235px;
   background-image: url(../images/4884841.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-#boxpreenche {
-  display: block;
-  height: 240px;
-  width: 200px;
-  background-color: rgba(255, 255, 255, 0);
 }
 
 #fundocity > .logo > .evslle > img{ 
@@ -290,6 +290,18 @@ main > #fundocity {
   font-size: 12px;
   text-align: center;
   letter-spacing: -0.005em;
+}
+
+main {
+  width: 90%;
+  height: 100vh;
+}
+
+#boxpreenche {
+  display: block;
+  height: 240px;
+  width: 200px;
+  background-color: rgba(255, 255, 255, 0);
 }
 
 .principio-un {
