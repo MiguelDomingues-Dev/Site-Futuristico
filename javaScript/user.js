@@ -8,12 +8,12 @@ function clickUser() {
   }
 }
 
-function mouse() {
-  informsuser.style.display = 'block'
-  cubobox.style.display = 'block'
-}
-
-  function mouseOut() {
-  informsuser.style.display = 'none'
-  cubobox.style.display = 'none'
+function menuUser() {
+  if (informsuser.style.display == 'none' && cubobox.style.display == 'none') {
+    informsuser.style.display = 'block';
+    cubobox.style.display = 'block';
+  } else {
+    informsuser.style.display = 'none';
+    cubobox.style.display = 'none';
+  }
 }

@@ -148,12 +148,22 @@ body, html {
   overflow: hidden;
 }
 
+#cubobox {
+  position: relative;
+  display: none;
+  left: -50px;
+  top: -30px;
+}
+
 #fundo-infouser {
   position: absolute;
   width: 169px;
   height: 205px;
-  left: 10px;
-  background-color: #010A2F;
+  left: 165.8px;
+  top: 138px;
+  border-radius: 10px;
+  background-color: #000000f0;
+  box-shadow: 3px 3px 15px #00e1ff2f;
 }
 
 #box-painel > img:nth-last-of-type(5) {
@@ -223,7 +233,7 @@ body, html {
   font-size: 10px;
   line-height: 12px;
   text-align: center;
-  color: rgba(255, 255, 255, 0.25);
+  color: rgba(255, 255, 255, 0.734);
 }
 
 #box-painel > #principal-email {
